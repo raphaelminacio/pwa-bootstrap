@@ -1,0 +1,119 @@
+body {
+    color: #4B4F41;
+    font-family: 'Montserrat';
+    /* background-color: #FCFF0C; */
+}
+
+/* #premier {
+    height: 828px;
+    background-color: #FCFF0C;
+} */
+
+.navbar-custom {
+    background-color: #FCFF0C;
+}
+
+.social-media {
+    color: #636955;
+}
+
+.navbar {
+    padding: 0px;
+    height: 80px;
+}
+
+.navbar-light .navbar-brand {
+    /* position: relative;
+    left: 30%; */
+    color: #4B4F41;
+    font-family: 'The Nautigal', cursive;
+    font-size: 3.8rem;
+    padding: 0px;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #4B4F41;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #4B4F41;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+.hover-animation{
+  display: inline-block;
+  position: relative;
+}
+
+.hover-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #c9ca7a;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.title {
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.title p {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.row {
+    position: relative;
+    top: 60px;
+    /* left: 100px; */
+}
+
+.card {
+    padding: 0 0 0;
+    width: 24rem;
+    border: none;
+    background-color: #f9f9f9;
+}
+
+.space-cards {
+    margin-left: 20px;
+}
+
+.card-title {
+    color: #7E802D;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: #4B4F41;
+}
+
+.card-body a {
+    color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+    .space-cards {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
